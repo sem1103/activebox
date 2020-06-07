@@ -247,3 +247,99 @@ font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
+/*WORKERS
+-------------------*/
+.workers{
+    display: flex;
+    margin: 100px 0 0 0;
+}
+
+.workers__item{
+    width: 25%;
+    font-family: 'Raleway', sans-serif;
+    width: 400;
+    padding: 32px;
+    text-align: center;
+    position: relative;
+    z-index: 30;
+    font-size: 14px;
+}
+
+.workers__text{
+    text-align: left;
+    position: absolute;
+    z-index: 25;
+    margin: 13px 0 0;
+
+}
+
+.workers__name{
+    text-align: left;
+    margin-top: 32px;
+}
+.workers__profession{
+    text-align: left;
+    margin-top: 11px;
+    color:#e84545
+}
+.button{
+    
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   border:none;
+   border: 1px solid;
+   border-color: #b5b8b9;
+   cursor: pointer;
+   outline: none;
+   margin-top: 25px;
+   margin-right: 5px;
+   
+   transition: border-radius 1.5s linear;
+
+}
+
+.button1{
+    
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border:none;
+    border: 1px solid;
+    border-color: #b5b8b9;
+    cursor: pointer;
+    outline: none;
+    margin-top: 25px;
+    margin-right: 5px;
+   
+    transition:  border-radius 1.5s linear;
+ 
+}
+ 
+.button2{
+    
+    padding: 11px;
+    border:none;
+    border: 1px solid;
+    border-color: #b5b8b9;
+    cursor: pointer;
+    outline: none;
+    margin-top: 25px;
+    margin-right: 5px;
+    
+    transition:  border-radius 1.5s linear;
+    
+    
+    
+ 
+}
+.button:hover,.button1:hover,.button2:hover{
+    
+    transition: 1.5s ;
+    border-radius: 50%;
+    border-color:  royalblue;
+  
+}
