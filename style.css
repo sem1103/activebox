@@ -85,7 +85,7 @@ font-size: 13px;
     padding-top: 100px;
     background: url(img/intro.jpg) center no-repeat ;
 background-color: #313550;
-
+background-size:cover;
 }
 
 .intro__inner{
